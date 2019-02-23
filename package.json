@@ -1,13 +1,11 @@
 {
-  "name": "pulse_frontend",
-  "version": "1.1.211",
-  "prodVersion": "1.1.122",
-  "description": "byg pulse frontend",
+  "name": "give_india_wikipedia_test",
+  "version": "1.0.0",
+  "description": "Automated the completed E2E flow for the Wikipedia page using selenium and scripted in JS",
   "scripts": {
-    "booking": "nightwatch test/features/bookings.feature",
     "test": "nightwatch"
   },
-  "author": "Lakshaya Maheshwari",
+  "author": "Akshay Gupta",
   "devDependencies": {
     "chai": "^4.1.2",
     "chromedriver": "^2.40.0",
@@ -20,8 +18,5 @@
     "nightwatch": "^0.9.21",
     "nightwatch-cucumber": "^9.1.2",
     "selenium-server": "^3.13.0"
-  },
-  "dependencies": {
-    "chakram": "^1.5.0"
   }
 }
